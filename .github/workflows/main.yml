@@ -41,4 +41,5 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "app2.py"
           heroku_email: marlidgaibor@gmail.com
+          buildpack: 'heroku/python'
           usedocker: false
